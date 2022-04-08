@@ -1,6 +1,9 @@
 # Working_Enviroment
 
-
+[Ciertas APS]
+ROFI -> sudo apt install rofi
+FEH (fondo de pantalla) -> sudo apt install feh -y 
+FIREJAIL -> sudo apt install firejail
 
 [bspwn - sxhkd]
 
@@ -26,3 +29,8 @@ Copiamos todos los config_files de este repositorio en las carpetas correspondie
  3 -> ".config_bspwm_bspwmrc" -> ~/.config/bspwm/bspwmrc
 chmod +x a todos.
  
+[Hurmit fonts]
+Descarga -> https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hermit.zip
+Metes el archivo en /usr/local/share/fonts -> mv ~/Descargas/Hurmit.zip /usr/local/share/fonts 
+Lo descomprimes ahi dentro
+
