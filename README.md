@@ -8,7 +8,7 @@ apt install build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-
  
 Instalamos bspwm y sxhkd:
  
-cd /home/s4vitar/Descargas/
+cd ~/Descargas/
 git clone https://github.com/baskerville/bspwm.git
 git clone https://github.com/baskerville/sxhkd.git
 cd bspwm/
