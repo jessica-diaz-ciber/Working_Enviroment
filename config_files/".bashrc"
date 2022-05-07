@@ -2,6 +2,10 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+#Custom commands
+echo -e "[$(date +%Y)年$(date +%m)月$(date +%d)日]\t\t[$(ip addres | grep 'tun0' | tail -n1 | awk '{print $2}' | awk '{print $1}' FS='/')]"
+
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -49,12 +53,12 @@ force_color_prompt=yes
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-	# We have color support; assume it's compliant with Ecma-48
-	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-	# a case would tend to support setf rather than setaf.)
-	    color_prompt=yes
+        # We have color support; assume it's compliant with Ecma-48
+        # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+        # a case would tend to support setf rather than setaf.)
+            color_prompt=yes
     else
-	    color_prompt=
+            color_prompt=
     fi
 fi
 
@@ -66,17 +70,17 @@ fi
 
 # Set 'man' colors
 if [ "$color_prompt" = yes ]; then
-	man() {
-	env \
-	LESS_TERMCAP_mb=$'\e[01;31m' \
-	LESS_TERMCAP_md=$'\e[01;31m' \
-	LESS_TERMCAP_me=$'\e[0m' \
-	LESS_TERMCAP_se=$'\e[0m' \
-	LESS_TERMCAP_so=$'\e[01;44;33m' \
-	LESS_TERMCAP_ue=$'\e[0m' \
-	LESS_TERMCAP_us=$'\e[01;32m' \
-	man "$@"
-	}
+        man() {
+        env \
+        LESS_TERMCAP_mb=$'\e[01;31m' \
+        LESS_TERMCAP_md=$'\e[01;31m' \
+        LESS_TERMCAP_me=$'\e[0m' \
+        LESS_TERMCAP_se=$'\e[0m' \
+        LESS_TERMCAP_so=$'\e[01;44;33m' \
+        LESS_TERMCAP_ue=$'\e[0m' \
+        LESS_TERMCAP_us=$'\e[01;32m' \
+        man "$@"
+        }
 fi
 
 unset color_prompt force_color_prompt
@@ -103,7 +107,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -lh'
+#alias ll='ls -lh'
 alias la='ls -lha'
 alias l='ls -CF'
 alias em='emacs -nw'
@@ -130,3 +134,13 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+#fzf
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+source /usr/share/doc/fzf/examples/key-bindings.bash
+source /usr/share/doc/fzf/examples/completion.bash
+
+#Custom Aliases
+alias ls='/usr/bin/lsd --group-dirs=first'
+alias ll='/usr/bin/lsd -lha --group-dirs=first'
+
