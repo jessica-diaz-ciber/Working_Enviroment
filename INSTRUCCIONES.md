@@ -26,6 +26,9 @@
 [cucuxii-parrot]─[~/]:$ cp ".config_bspwm_bspwmrc" ~/.config/bspwm/bspwmrc 
 [cucuxii-parrot]─[~/]:$ cp ".config_bspwm_scripts_bspwm_resize" ~/.config/bspwn/scripts/bspwn_resize
 [cucuxii-parrot]─[~/]:$ chmod +x ~/.config/bspwn/scripts/bspwn_resize ~/.config/bspwm/bspwmrc  ~/.config/sxhkd/sxhkdrc
+
+sudo apt install compton
+Copiar el picom por defecto y comentar la linea de vsync
 ```
 ## Hurmit
 
