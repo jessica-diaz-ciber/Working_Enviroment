@@ -1,9 +1,0 @@
-[BSpwn] -> una vez copiados todos los config_files
-
-Windows numero(1,2,3) -> cambiar ventana 
-Windows Enter -> abrir consola
-Windows W -> cerrar ventana
-Ctrol Windows num -> definir tamaño nueva ventana -> Windows Enter -> crearla despues
-Windows S -> tiling window -> para moverla Windows Ctrol flechas. Windows T para dejarla normal
-Windows Shift numero -> desplazar ventana actual a otro escritorio
-Windows d -> abrir rofi
