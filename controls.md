@@ -16,7 +16,7 @@ Oh-my-tmux
 ```cd```,  ```git clone https://github.com/gpakosz/.tmux.git```, ```ln -s -f .tmux/.tmux.conf```, ```cp .tmux/.tmux.conf.local .```
 
 Controles
-```tmux new -s Nombre```
-(Ctrol+B) + (') -> renombrar ventana  
-(Ctrol+B) + (c) -> crear nueva ventana  
-(Ctrol+B) + (1) -> cambiar a ventana 1 (o 2 o 3...)
+```tmux new -s Nombre```  
+(Ctrol+B) + (') -> renombrar ventana    
+(Ctrol+B) + (c) -> crear nueva ventana    
+(Ctrol+B) + (1) -> cambiar a ventana 1 (o 2 o 3...)  
