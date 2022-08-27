@@ -8,9 +8,18 @@ Windows S -> tiling window -> para moverla Windows Ctrol flechas. Windows T para
 Windows Shift numero -> desplazar ventana actual a otro escritorio
 Windows d -> abrir rofi
 
+# ZSH
+
 (Ctrol Shift) + (c) -> copiar
 (Ctrol Shift) + (v) -> pegar
 
+Plugin de sudo
+En zshrc -> ```source /usr/share/zsh-sudo/sudo.plugin.zsh``` el plugin de sudo tiene que estar ahi con el usuario:grupo actual (chown)
+[plugin](https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/sudo/sudo.plugin.zsh)
+
+# FZF
+(Ctrol) + (t) -> buscar 
+(Ctrol) + (r) -> historial de comandos
 
 # TMUX
 
