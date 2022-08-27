@@ -8,6 +8,10 @@ Windows S -> tiling window -> para moverla Windows Ctrol flechas. Windows T para
 Windows Shift numero -> desplazar ventana actual a otro escritorio
 Windows d -> abrir rofi
 
+(Ctrol Shift) + (c) -> copiar
+(Ctrol Shift) + (v) -> pegar
+
+
 # TMUX
 
 Tmux te permite centralizar la terminal en vez de abrir muchas terminales
@@ -57,5 +61,8 @@ Controles
 ```
 set tabstop=4 # -> tabulacion de 4 espacios
 ```
+
+# KITTY
+~/.config/kitty/kitty.conf
 
 
