@@ -17,22 +17,22 @@ Oh-my-tmux
 
 Controles
 ```tmux new -s Nombre```  
-(Ctrol+B) + (') -> renombrar ventana    
-(Ctrol+B) + (c) -> crear nueva ventana    
-(Ctrol+B) + (1) -> cambiar a ventana 1 (o 2 o 3...) 
-(Ctrol+B) + (x) + (y) -> cerrar ventana 
+(Ctrol+B) + (') -> renombrar ventana      
+(Ctrol+B) + (c) -> crear nueva ventana      
+(Ctrol+B) + (1) -> cambiar a ventana 1 (o 2 o 3...)   
+(Ctrol+B) + (x) + (y) -> cerrar ventana   
 
-(Ctrol+B) + (Shift + 2) -> splitear la ventana
-(Ctrol+B) + (Shift + 5) -> splitear la ventana verticalmente
-(Ctrol+B) + (o/flechas) -> cambiar de panel
-(Ctrol+B) + (ctrol + flechas) -> ajustar tamaño del de panel
+(Ctrol+B) + (Shift + 2) -> splitear la ventana  
+(Ctrol+B) + (Shift + 5) -> splitear la ventana verticalmente  
+(Ctrol+B) + (o/flechas) -> cambiar de panel  
+(Ctrol+B) + (ctrol + flechas) -> ajustar tamaño del de panel  
 
-- **Texto modo copia**
-(Ctrol+B) + (AltGR+\[) -> modo copia (mover con flechas), modo scroll.
-(ctrol+espacio) -> seleccionar
-(Alt+W) -> copiar la linea
-(Ctrol+B) + (AltGR+\]) -> pegar
-(q) -> salir de modo copia/scroll
+- **Texto modo copia**  
+(Ctrol+B) + (AltGR+\[) -> modo copia (mover con flechas), modo scroll.  
+(ctrol+espacio) -> seleccionar  
+(Alt+W) -> copiar la linea  
+(Ctrol+B) + (AltGR+\]) -> pegar  
+(q) -> salir de modo copia/scroll  
 
 # VIM
 
