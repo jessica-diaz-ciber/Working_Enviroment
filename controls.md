@@ -13,9 +13,12 @@ Windows d -> abrir rofi
 (Ctrol Shift) + (c) -> copiar
 (Ctrol Shift) + (v) -> pegar
 
-Plugin de sudo
+Plugin de sudo -> (esc) + (esc)
 En zshrc -> ```source /usr/share/zsh-sudo/sudo.plugin.zsh``` el plugin de sudo tiene que estar ahi con el usuario:grupo actual (chown)
 [plugin](https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/sudo/sudo.plugin.zsh)
+
+(alt) + (flechas) -> saltar entre palabras
+(fn) + (flechas (que son inicio y fin)) -> inicio de linea / fin de linea 
 
 # FZF
 (Ctrol) + (t) -> buscar 
@@ -53,18 +56,22 @@ Controles
 (flechas) -> moverse || (shift) + (flechas) -> moverse por palabras
 (gg) -> inicio de documento || (shift) + (g) -> fin del documento 
 (shift) + (4) -> ir al fin de linea || (0) -> inicio de linea 
-
 - **borrar**
 (d) + (w) -> borrar palabra || (dd) -> borrar linea || (d) -> borrar seleccion || (alt+u) -> borrar ultima accion(clasico ctrol+z)
-
 - **copiar**
 (v) -> modo visual || (y) -> copiar || (p) -> pegar
-
-(I) -> modo escritura 
-(Esc) -> salir del modo escritura
-
+(I) -> modo escritura  || (Esc) -> salir del modo escritura
+(j) + (.) -> repetir accion
+- **guardar**
 (:) -> comandos
 (:wq!) -> salir guardando || (:q!) -> salir sin guardar || (:w!) -> guardar sin salir
+- **macros**
+(q) + (a) -> crear macro en "a"   (q) -> acabar macro (siempre antes saltar de linea)    ->  30@a -> repetir 30 veces la macro
+- **strings**
+(esc) + (/) -> modo busqueda
+(:%s/palabra/palabra2/g) -> sutituir palabras
+
+[recurso](https://vim.rtorr.com)
 
 **Archivo ~/.vimrc**  
 ```
@@ -77,9 +84,13 @@ set tabstop=4 # -> tabulacion de 4 espacios
 (Ctrol+shift) + (enter) -> splitear panel
 (Ctrol+shift) + (r) -> cambiar tamaño panel
 (Ctrol+flechas) -> cambiarse de panel
-(Ctrol+shift) + (w) -> cerrar panel
-(Ctrol+shift) + (t) -> nuevo panel
-(Ctrol+shift) + (flechas) -> cambair de ventana 
+(Ctrol+shift) + (w) -> nueva ventana || (Ctrol+shift) + (q) -> cerrar panel/vetana
+
+(Ctrol+shift) + (alt) + (q) -> renombrar panel
+(Ctrol+shift) + (flechas) -> cambair de ventana  
+(Ctrol+shift) + (, .) -> mover la ventana 
+(fn f1) -> copiar (f2) -> pegar 
+(Ctrol) + (Alt) -> seleccionar desde la derecha
 
 
 
