@@ -74,4 +74,13 @@ set tabstop=4 # -> tabulacion de 4 espacios
 # KITTY
 ~/.config/kitty/kitty.conf
 
+(Ctrol+shift) + (enter) -> splitear panel
+(Ctrol+shift) + (r) -> cambiar tamaño panel
+(Ctrol+flechas) -> cambiarse de panel
+(Ctrol+shift) + (w) -> cerrar panel
+(Ctrol+shift) + (t) -> nuevo panel
+(Ctrol+shift) + (flechas) -> cambair de ventana 
+
+
+
 
