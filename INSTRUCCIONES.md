@@ -38,7 +38,6 @@
 ## Instalar lsd (ls colorido)
 ```sudo dpkg -i ./Descargas/lsd-musl_0.22.0_amd64-deb```
 
-
-
-
+## Js-beautify
+```sudo apt install npm```   ```sudo npm -g install js-beautify```
 
