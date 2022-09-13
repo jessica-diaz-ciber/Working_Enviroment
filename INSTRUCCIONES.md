@@ -30,7 +30,7 @@ Repo -> ```git clone https://github.com/ibhagwan/picom.git``` > ```git submodule
 ## kITTY
 
 ```sudo apt install kitty```
-
+Tiene que haber dos archivos de configuracion -> ```~/.config/kitty/kitty.conf``` ```~/.config/kitty/color.ini
 
 ## Hurmit (fuente)
 
