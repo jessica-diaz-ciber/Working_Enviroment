@@ -2,6 +2,9 @@
 #Plugins
 source /usr/share/zsh-sudo/sudo.plugin.zsh
 
+# FIx the java problem
+export _JAVA_AWT_WM_NONREPARENTING=1
+
 # ~/.zshrc file for zsh interactive shells.
 # see /usr/share/doc/zsh/examples/zshrc for examples
 
