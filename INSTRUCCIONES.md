@@ -55,9 +55,8 @@ Tiene que haber dos archivos de configuracion -> ```~/.config/kitty/kitty.conf``
 Repsositorio -> ```git clone –recursive https://github.com/polybar/polybar``` Te metes dentro y ```mkdir build```  ``` cd build```  
 ```cmake ..```  ```make -j$(nproc)``` ```sudo make install```
 ```git clone https://github.com/VaughnValle/blue_sky.git``` > ```cp -r BlueSky/polivar/* ~/.config/polyabr``` 
-Y en *bspwmrc* escribir ````~/.config/polybar/./launch.sh```
+Y en *bspwmrc* escribir ```~/.config/polybar/./launch.sh```
 
-
-
+Solucion al problema con el crackmapexec [winrm](https://bytemeta.vip/repo/byt3bl33d3r/CrackMapExec/issues/600) 
 
 
