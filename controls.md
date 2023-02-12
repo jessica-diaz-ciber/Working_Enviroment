@@ -57,7 +57,7 @@ Controles
 (gg) -> inicio de documento || (shift) + (g) -> fin del documento 
 (shift) + (4) -> ir al fin de linea || (0) -> inicio de linea 
 - **borrar**
-(d) + (w) -> borrar palabra || (dd) -> borrar linea || (d) -> borrar seleccion || (alt+u) -> borrar ultima accion(clasico ctrol+z)
+(d) + (w) -> borrar palabra || (dd) -> borrar linea || (d) -> borrar seleccion || (shift+u) -> borrar ultima accion(clasico ctrol+z)
 - **copiar**
 (v) -> modo visual || (y) -> copiar || (p) -> pegar
 (I) -> modo escritura  || (Esc) -> salir del modo escritura
