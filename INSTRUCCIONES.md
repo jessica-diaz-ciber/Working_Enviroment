@@ -1,5 +1,10 @@
 # Working_Enviroment
 
+## VirtualBox
+Antes que nada `sudo apt update && sudo apt upgrade`, luego instalar `sudo apt install dkms && sudo apt install build-essential`
+Instalar las Guest-Aditions la ruta es `/media/cdrom`, hacer `sudo bash ./VBoxLinuxAdditions.run` pero no tener el explorador de archivos abierto. Si da error
+hacer `reboot` y de nuevo. 
+
 ## Aplicaciones
 
 ```console
