@@ -70,7 +70,7 @@ Solucion al problema con el crackmapexec [winrm](https://bytemeta.vip/repo/byt3b
 3. Import the certificate into firefox
 
 Plugin:
-- Install the `python reuqests` in `Extensions > BAppStore`
+- Install the `python reuqests` in `Extensions > BAppStore`. Copiar como request, quitar tanto la `If-Modified-Since` como el `GET <url> HTTP/2`
 
 
 
