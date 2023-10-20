@@ -64,4 +64,13 @@ Y en *bspwmrc* escribir ```~/.config/polybar/./launch.sh```
 
 Solucion al problema con el crackmapexec [winrm](https://bytemeta.vip/repo/byt3bl33d3r/CrackMapExec/issues/600) 
 
+## Burpsuite
+1. Install foxyproxy and set a proxy on `127.0.0.1 8080`. 
+2. Open burpsuite, turn "intercept is on" -> go to `https://127.0.0.1:8080` and download the certificate `cacert`
+3. Import the certificate into firefox
+
+Plugin:
+- Install the `python reuqests` in `Extensions > BAppStore`
+
+
 
