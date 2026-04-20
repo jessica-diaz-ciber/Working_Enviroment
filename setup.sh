@@ -8,7 +8,6 @@ echo -e "[*] Instalando herramientas"
 sudo apt install ripgrep fd-find bat fzf 
 echo "YWxpYXMgY2F0PS91c3IvYmluL2JhdGNhdApzb3VyY2UgPChmemYgLS16c2gpCmV2YWwgIiQoem94aWRlIGluaXQgenNoIC0tY21kIHopIgphbGlhcyBscz0iZXhhIC0taWNvbnMiCmFsaWFzIGZkPSJmZGZpbmQiCmFsaWFzIHRyZWU9ImV4YSAtLWljb25zIC0tdHJlZSIKYWxpYXMgY2Q9Inoi" | base64 -d >> ~/.zshrc
 
-
 echo -e "[*] Instalando fuente"
 mkdir -p /usr/local/share/fonts/HermitNerdFont; cd /tmp
 wget -O Hermit.zip "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Hermit.zip"
