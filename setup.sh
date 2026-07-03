@@ -1,3 +1,8 @@
+
+echo -e "[*] Instalando TMUX"
+sudo apt install tmux
+echo "set-window-option -g mode-keys vi" > ~/.tmux.conf
+
 echo -e "[*] Instalando NVIM"
 sudo apt install neovim
 git clone https://github.com/folke/lazy.nvim.git ~/.local/share/nvim/lazy/lazy.nvim
@@ -7,6 +12,17 @@ echo "dmltLm9wdC50ZXJtZ3VpY29sb3JzID0gZmFsc2UgICAgICAgICAgIAp2aW0ub3B0LmJhY2tncm
 echo -e "[*] Instalando herramientas"
 sudo apt install ripgrep fd-find bat fzf 
 echo "YWxpYXMgY2F0PS91c3IvYmluL2JhdGNhdApzb3VyY2UgPChmemYgLS16c2gpCmV2YWwgIiQoem94aWRlIGluaXQgenNoIC0tY21kIHopIgphbGlhcyBscz0iZXhhIC0taWNvbnMiCmFsaWFzIGZkPSJmZGZpbmQiCmFsaWFzIHRyZWU9ImV4YSAtLWljb25zIC0tdHJlZSIKYWxpYXMgY2Q9Inoi" | base64 -d >> ~/.zshrc
+
+echo -e "[*] Instalando historial carapace"
+sudo echo  "deb [trusted=yes] https://termux.carapace.sh termux extras" >> /etc/apt/sources.list.d/fury.list
+sudo apt update && apt install carapace-bin
+echo  "export CARAPACE_BRIDGES='zsh,fish,bash,'" >> ~/.zshrc
+echo  "source <(carapace _carapace)" >> ~/.zshrc
+
+# ~/.bashrc
+export CARAPACE_BRIDGES='zsh,fish,bash,inshellisense' # optional
+source <(carapace _carapace)
+
 
 echo -e "[*] Instalando fuente"
 mkdir -p /usr/local/share/fonts/HermitNerdFont; cd /tmp
